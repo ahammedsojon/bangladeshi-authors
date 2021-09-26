@@ -3,6 +3,20 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    background-color: #192a56;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    animation: effect .3s ease-in;
+}
+@keyframes effect {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
 }
 .li img{
     max-width: 100%;

@@ -7,22 +7,24 @@
     border-radius: 10px;
 }
 .author:hover{
+    cursor: pointer;
     background-color: #ffffff;
     color: #273c75;
     transform: scale(1);
     border: 1px solid #192a56;
-    border-radius: 10px;
 }
 .btn-regular{
     background-color: #ffffff;
     border: 1px solid #192a56;
+    border-radius: 5px;
     color: #192a56;
+    font-weight: bold;
+    font-size: 16px;
     transition: all .3s;
 }
 .author:hover .btn-regular{
     background-color: #192a56;
     border: 1px solid #192a56;
     color: white;
-    cursor: pointer;
     transform: scale(1);
 }

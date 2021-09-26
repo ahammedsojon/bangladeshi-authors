@@ -16,7 +16,7 @@ const Author = (props) => {
                     <div className="text-center">
                         <button
                             onClick={() => props.handleAddToList(props.author)}
-                            className="btn btn-regular"><i className="fas fa-at"></i> add to list</button>
+                            className="btn btn-lg btn-regular"><i className="fas fa-list-ul"></i> add to list</button>
                     </div>
 
                 </div>
