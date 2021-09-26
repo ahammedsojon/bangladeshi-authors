@@ -4,10 +4,14 @@ import './List.css';
 
 const List = (props) => {
     const { list } = props;
+
+    // remove duplicate author's name from the list 
     const uniq = list.reduce((previous, author) => {
         if (previous.indexOf(author) === -1) previous.push(author);
         return previous;
     }, []);
+
+    // total amount of authors property
     const total = uniq.reduce((previous, author) => previous + author.property, 0);
 
     return (

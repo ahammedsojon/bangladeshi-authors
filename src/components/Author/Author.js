@@ -1,7 +1,7 @@
 import React from 'react';
 import './Author.css';
+
 const Author = (props) => {
-    // console.log(props.author)
     const { name, img, born, district, books, property } = props.author;
     return (
         <div className="col">
@@ -16,9 +16,8 @@ const Author = (props) => {
                     <div className="text-center">
                         <button
                             onClick={() => props.handleAddToList(props.author)}
-                            className="btn btn-lg btn-regular"><i className="fas fa-list-ul"></i> add to list</button>
+                            className="btn btn-lg btn-regular"><i className="fas fa-list-ul"></i> Add To List</button>
                     </div>
-
                 </div>
             </div>
         </div>

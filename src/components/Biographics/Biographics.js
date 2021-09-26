@@ -10,6 +10,8 @@ const Biographics = () => {
             .then(res => res.json())
             .then(data => setAuthors(data))
     }, [])
+
+    // added author into the list
     const handleAddToList = author => {
         const newList = [...list, author];
         setList(newList);
@@ -34,6 +36,7 @@ const Biographics = () => {
                         <List list={list}></List>
                     </div>
                 </div>
+
             </div>
         </div >
     );
