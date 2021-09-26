@@ -1,0 +1,15 @@
+.biographics{
+    width: 95%;
+    margin: auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.list-container{
+    background-color: #ffffff;
+    opacity: .8;
+    color: #192a56;
+    border-radius: 10px;
+}

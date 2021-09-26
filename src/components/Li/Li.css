@@ -1,0 +1,12 @@
+.li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.li img{
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}

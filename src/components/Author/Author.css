@@ -1,0 +1,28 @@
+.author{
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px;
+    transform: scale(.97);
+    transition: all .3s;
+    background-color: #273c75;
+    color: white;
+    border-radius: 10px;
+}
+.author:hover{
+    background-color: #ffffff;
+    color: #273c75;
+    transform: scale(1);
+    border: 1px solid #192a56;
+    border-radius: 10px;
+}
+.btn-regular{
+    background-color: #ffffff;
+    border: 1px solid #192a56;
+    color: #192a56;
+    transition: all .3s;
+}
+.author:hover .btn-regular{
+    background-color: #192a56;
+    border: 1px solid #192a56;
+    color: white;
+    cursor: pointer;
+    transform: scale(1);
+}

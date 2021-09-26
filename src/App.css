@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+.app {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ6nBZmN2eqi1bPJmBSiyDqFdcW7WwWextqw&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App-logo {
